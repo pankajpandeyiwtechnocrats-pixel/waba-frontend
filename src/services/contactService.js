@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/contacts";
+const API_URL = "https://waba-backend-wq2d.onrender.com/api/contacts";
 const token = () => localStorage.getItem("authToken");
 
 export async function getContacts(projectId) {
