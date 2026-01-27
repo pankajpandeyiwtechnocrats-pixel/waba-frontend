@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/campaigns";
+const API_URL = "https://waba-backend-wq2d.onrender.com/api/campaigns";
 const token = () => localStorage.getItem("authToken");
 
 export async function getCampaigns(projectId) {
