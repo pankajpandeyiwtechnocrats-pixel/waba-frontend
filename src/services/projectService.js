@@ -38,7 +38,7 @@ export async function getProjects() {
 
 export async function getProjectById(projectId) {
   const res = await fetch(
-    `http://localhost:5000/api/projects/${projectId}`,
+    `https://waba-backend-wq2d.onrender.com/api/projects/${projectId}`,
     {
       headers: {
         Authorization: `Bearer ${localStorage.getItem("authToken")}`,
