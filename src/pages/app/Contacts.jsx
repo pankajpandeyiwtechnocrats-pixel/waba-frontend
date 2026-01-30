@@ -138,7 +138,7 @@ export default function Contacts() {
       {/* CONTACTS TABLE */}
       <table className="w-full border">
         <thead>
-          <tr className="bg-white text-left">
+          <tr className="bg-gray-100 text-left">
             <th className="p-2">
               <input
                 type="checkbox"
@@ -165,7 +165,7 @@ export default function Contacts() {
                   : ""
               }`}
             >
-              <td className="p-2">
+              <td className="p-2 bg-white">
                 <input
                   type="checkbox"
                   checked={selected.includes(c._id)}
