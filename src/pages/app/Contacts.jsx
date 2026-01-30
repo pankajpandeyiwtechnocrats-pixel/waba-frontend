@@ -138,7 +138,7 @@ export default function Contacts() {
       {/* CONTACTS TABLE */}
       <table className="w-full border">
         <thead>
-          <tr className="bg-gray-100 text-left">
+          <tr className="bg-white text-left">
             <th className="p-2">
               <input
                 type="checkbox"
