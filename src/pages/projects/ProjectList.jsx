@@ -77,7 +77,7 @@ export default function ProjectList() {
             onClick={() =>
               navigate(`/app/${p._id}/dashboard`)
             }
-            className="border rounded-lg p-4 cursor-pointer hover:bg-gray-50"
+            className="border bg-white rounded-lg p-4 cursor-pointer hover:bg-gray-50"
           >
             <h2 className="font-medium">{p.name}</h2>
             <p className="text-sm text-gray-500">
