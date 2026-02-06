@@ -1,4 +1,4 @@
-const API_URL = "https://waba-backend-wq2d.onrender.com/api/templates";
+const API_URL = "https://waba-backend-2.onrender.com/api/templates";
 
 const token = () => localStorage.getItem("authToken");
 
