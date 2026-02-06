@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const socket = io("https://waba-backend-wq2d.onrender.com", {
+const socket = io("https://waba-backend-2.onrender.com", {
   autoConnect: false,
 });
 
