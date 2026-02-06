@@ -1,4 +1,4 @@
-const API_URL = "https://waba-backend-wq2d.onrender.com/api/auth";
+const API_URL = "https://waba-backend-2.onrender.com//api/auth";
 
 export async function loginUser(email, password) {
   const res = await fetch(`${API_URL}/login`, {
